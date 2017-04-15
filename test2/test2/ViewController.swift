@@ -100,9 +100,7 @@ class ViewController: UIViewController {
         UIView.setAnimationDuration(0.5) //设置动画时间
         doer.transform = CGAffineTransformScale(doer.transform, 0.7 ,0.7)
         UIView.commitAnimations()
-//
-//        doer.frame.size.height = doer.frame.size.height * 0.7
-//        doer.frame.size.width = doer.frame.size.width * 0.7
+
     }
     
     @IBAction func doLeftR(sender: AnyObject) {
