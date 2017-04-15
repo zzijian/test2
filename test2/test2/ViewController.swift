@@ -100,8 +100,7 @@ class ViewController: UIViewController {
         UIView.setAnimationDuration(0.5) //设置动画时间
         doer.transform = CGAffineTransformScale(doer.transform, 0.7 ,0.7)
         UIView.commitAnimations()
-//test
-        //test2
+
 
     }
     
