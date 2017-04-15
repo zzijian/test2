@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGC-iP-hXu">
+                                <rect key="frame" x="69" y="285" width="50" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" backgroundImage="up.png"/>
+                                <connections>
+                                    <action selector="doUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PRt-nd-yKm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWw-c3-L7g">
+                                <rect key="frame" x="20" y="343" width="50" height="50"/>
+                                <state key="normal" backgroundImage="left.png"/>
+                                <connections>
+                                    <action selector="doLeft:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zbv-QJ-r9c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j86-sU-hZC">
+                                <rect key="frame" x="123" y="343" width="50" height="50"/>
+                                <state key="normal" backgroundImage="right.png"/>
+                                <connections>
+                                    <action selector="doRight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y3p-mr-cZt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtV-yx-K8a">
+                                <rect key="frame" x="69" y="401" width="50" height="50"/>
+                                <state key="normal" backgroundImage="down.png"/>
+                                <connections>
+                                    <action selector="doDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nIh-je-gaZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izo-3o-jPi">
+                                <rect key="frame" x="251" y="311" width="45" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="doSmaller:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HJl-D0-ltG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BW-iv-dsX">
+                                <rect key="frame" x="192" y="401" width="37" height="37"/>
+                                <state key="normal" backgroundImage="Lz.jpg"/>
+                                <connections>
+                                    <action selector="doLeftR:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Yc-o9-RvG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4c-7q-dOH">
+                                <rect key="frame" x="192" y="311" width="45" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="doBigger:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4hi-KW-LPT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gg-7L-pnK">
+                                <rect key="frame" x="95" y="54" width="130" height="130"/>
+                                <state key="normal" backgroundImage="IMG_0207.jpg"/>
+                                <connections>
+                                    <action selector="doChange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cWN-vf-jRp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0w-ao-PsH">
+                                <rect key="frame" x="266" y="405" width="30" height="30"/>
+                                <state key="normal" backgroundImage="Rz.jpg"/>
+                                <connections>
+                                    <action selector="doRightR:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PMB-Vy-YEY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="doer" destination="4gg-7L-pnK" id="9wc-pz-Yzr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="316"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_0207.jpg" width="560" height="560"/>
+        <image name="Lz.jpg" width="300" height="300"/>
+        <image name="Rz.jpg" width="257" height="300"/>
+        <image name="down.png" width="370" height="364"/>
+        <image name="left.png" width="357" height="362"/>
+        <image name="right.png" width="377" height="367"/>
+        <image name="up.png" width="357" height="358"/>
+    </resources>
+</document>
